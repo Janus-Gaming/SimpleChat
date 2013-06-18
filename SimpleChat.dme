@@ -1,0 +1,49 @@
+// DM Environment file for SimpleChat.dme.
+// All manual changes should be made outside the BEGIN_ and END_ blocks.
+// New source code should be placed in .dm files: choose File/New --> Code File.
+
+// BEGIN_INTERNALS
+// END_INTERNALS
+
+// BEGIN_FILE_DIR
+#define FILE_DIR .
+#define FILE_DIR "banreasons"
+#define FILE_DIR "images"
+#define FILE_DIR "sounds"
+// END_FILE_DIR
+
+// BEGIN_PREFERENCES
+#define DEBUG
+// END_PREFERENCES
+
+// BEGIN_INCLUDE
+#include "NOTES.dm"
+#include "interface.dmf"
+#include "objects\account\account.dm"
+#include "objects\account\account_procs.dm"
+#include "objects\account\account_save.dm"
+#include "objects\client\client.dm"
+#include "objects\client\client_del.dm"
+#include "objects\client\client_new.dm"
+#include "objects\client\client_procs.dm"
+#include "objects\client\client_verbs.dm"
+#include "objects\clientmob\clientmob.dm"
+#include "objects\code\code.dm"
+#include "objects\command\command.dm"
+#include "objects\command\command_types.dm"
+#include "objects\conference\conference.dm"
+#include "objects\datum\datum.dm"
+#include "objects\module\module.dm"
+#include "objects\penalty\penalty.dm"
+#include "objects\rank\rank.dm"
+#include "objects\rank\rank_types.dm"
+#include "objects\tell\tell.dm"
+#include "objects\time\time.dm"
+#include "objects\timer\timer.dm"
+#include "objects\world\world.dm"
+#include "objects\world\world_del.dm"
+#include "objects\world\world_new.dm"
+#include "objects\world\world_procs.dm"
+#include "objects\world\world_saving.dm"
+// END_INCLUDE
+

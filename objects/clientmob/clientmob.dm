@@ -1,0 +1,7 @@
+
+//////////////////////
+// CLIENTMOB OBJECT //
+//////////////////////
+
+clientmob
+	parent_type	= /mob

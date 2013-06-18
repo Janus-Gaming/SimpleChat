@@ -1,0 +1,7 @@
+
+///////////////////
+// MODULE OBJECT //
+///////////////////
+
+module
+	parent_type	= /datum

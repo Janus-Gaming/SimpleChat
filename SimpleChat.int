@@ -1,0 +1,23 @@
+// BEGIN_INTERNALS
+/*
+MAP_ICON_TYPE: 0
+WINDOW: objects\world\world.dm;objects\command\command_types.dm;objects\world\world_procs.dm;NOTES.dm;objects\account\account.dm;objects\client\client.dm;objects\timer\timer.dm
+LAST_COMPILE_VERSION: 499.1193
+PACKAGE_RSC_NAME: C:\Users\ZYNKCO\Desktop\Dropbox\ZYNKCO\SharedProjects\SimpleChat\SimpleChat_rsc.zip
+PACKAGE_DME_DEMO: 
+PACKAGE_DME_CLEANCHECK: OFF
+PACKAGE_TYPE: 0
+PACKAGE_DMB_HUB: Makeii.SimpleChat
+PACKAGE_RSC_CLEANCHECK: OFF
+PACKAGE_DMB_CLEANCHECK: OFF
+PACKAGE_DME_START: 
+DIR: objects objects\account objects\client objects\command objects\timer objects\world 
+PACKAGE_DME_NAME: C:\Users\ZYNKCO\Desktop\Dropbox\ZYNKCO\SharedProjects\SimpleChat\SimpleChat_src.zip
+FILE: objects\world\world.dm
+PACKAGE_DME_INFO: 
+LAST_COMPILE_TIME: 1371527950
+PACKAGE_DMB_NAME: C:\Users\ZYNKCO\Desktop\Dropbox\Public\SimpleChat\SimpleChat.zip
+AUTO_FILE_DIR: ON
+PACKAGE_DMB_INFO: images/
+*/
+// END_INTERNALS
