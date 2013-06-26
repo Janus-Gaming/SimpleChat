@@ -28,7 +28,7 @@ var/const
 //////////////////
 
 world
-	name		= "SimpleChat by ZYNKCO"
+	name		= "Starbase Janus SimpleChat Server"
 	icon_size	= 20
 	version 	= 411
 
@@ -39,8 +39,8 @@ world
 
 var
 	_display_version		= "v4.11"
-	_channelname			= "Testing Channel"
-	_motd					= "No Motd."
+	_channelname			= "General Channel"
+	_motd					= ""
 
 	icon/
 		_images				= list( icon('user_icons.dmi',"avail"),
@@ -50,7 +50,7 @@ var
 									icon('user_icons.dmi',"host"),
 									icon('ui_icons.dmi',"dice"))
 
-	_flag_allowguests		= TRUE
+	_flag_allowguests		= FALSE
 	_flag_allowtelnet		= TRUE
 	_flag_rebootissued		= FALSE
 	_flag_shutdown			= FALSE

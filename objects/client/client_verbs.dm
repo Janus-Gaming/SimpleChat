@@ -96,11 +96,11 @@ client/verb
 	//////////
 
 	Menu_Donate()
-		src << link("https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=VFNTUNMKEH6K6")
+		src << link("https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=3JM6DKXF2FZPE")
 		Server_Debug("[_time.ExportTimeStamp(-5)]: [src] clicked the Donate menu selection.")
 
 	Menu_Forums()
-		src << link("http://www.byond.com/forum/makeii/simplechat")
+		src << link("https://starbasejanus.net/forum/")
 		Server_Debug("[_time.ExportTimeStamp(-5)]: [src] clicked the Forum menu selection.")
 
 	Menu_ShowReference()

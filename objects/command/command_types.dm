@@ -9,6 +9,18 @@ command
 	// USER COMMANDS //
 	///////////////////
 
+	starbasejanus
+		name	="StarbaseJanus"
+		desc	= "Provides a search query for the main Starbase Janus website."
+		format	= "/cmd (T:word1) (T:word2)..."
+		args_amt= 0
+		ids		= list("/starbasejanus","sbj")
+		req		= RANK_USER
+		Use(client/C, list/L)
+			if (length(L) > 0)
+				var/d = CropText(SafeText(html_encode(ListToText(L,"+"))),200)
+				C.OutputLink("https://starbasejanus.net/search/node/[d]","Starbase Janus: \"[d]\"")
+
 	google
 		name	= "GoogleSearch"
 		desc	= "Provides a handy google search query for users to click."
@@ -395,7 +407,7 @@ command
 	// SETTINGS TAB COMMANDS //
 	///////////////////////////
 
-	color
+/*	color
 		name	= "Color"
 		desc	= "Sets your name color to X"
 		format	= "/cmd (text)"
@@ -408,6 +420,7 @@ command
 			C.name_color = d
 			Server_Notify(C,"Your color is set to [C.name_color]")
 			Server_RefreshUserlists()
+*/
 
 /*
 	timeoffset
